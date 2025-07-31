@@ -1,0 +1,50 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="50" cy="50" r="48" fill="none" stroke="#2563EB" stroke-width="3"/>
+  
+  <!-- Witch Hat -->
+  <path d="M35 45 L50 15 L65 45 Z" fill="#374151" stroke="#1F2937" stroke-width="2"/>
+  <!-- Hat Brim -->
+  <ellipse cx="50" cy="45" rx="18" ry="4" fill="#374151" stroke="#1F2937" stroke-width="1"/>
+  <!-- Hat Band -->
+  <rect x="42" y="40" width="16" height="3" fill="#DC2626" rx="1"/>
+  
+  <!-- Face -->
+  <circle cx="50" cy="55" r="12" fill="#F3E8D0" stroke="#E5D4B1" stroke-width="1"/>
+  
+  <!-- Eyes -->
+  <circle cx="46" cy="52" r="1.5" fill="#374151"/>
+  <circle cx="54" cy="52" r="1.5" fill="#374151"/>
+  
+  <!-- Nose -->
+  <path d="M50 54 L48 58 L52 58 Z" fill="#E5D4B1" stroke="#D1C7B0" stroke-width="0.5"/>
+  
+  <!-- Mouth -->
+  <path d="M47 60 Q50 62 53 60" fill="none" stroke="#374151" stroke-width="1" stroke-linecap="round"/>
+  
+  <!-- Hair (visible under hat) -->
+  <path d="M40 50 Q35 55 38 60" fill="#8B5A3C" stroke="#6B4226" stroke-width="1"/>
+  <path d="M60 50 Q65 55 62 60" fill="#8B5A3C" stroke="#6B4226" stroke-width="1"/>
+  
+  <!-- Body/Cloak -->
+  <path d="M35 67 Q50 65 65 67 L62 85 Q50 88 38 85 Z" fill="#2563EB" stroke="#1D4ED8" stroke-width="2"/>
+  
+  <!-- Arms -->
+  <ellipse cx="35" cy="72" rx="4" ry="8" fill="#2563EB" stroke="#1D4ED8" stroke-width="1"/>
+  <ellipse cx="65" cy="72" rx="4" ry="8" fill="#2563EB" stroke="#1D4ED8" stroke-width="1"/>
+  
+  <!-- Hands -->
+  <circle cx="32" cy="75" r="3" fill="#F3E8D0" stroke="#E5D4B1" stroke-width="1"/>
+  <circle cx="68" cy="75" r="3" fill="#F3E8D0" stroke="#E5D4B1" stroke-width="1"/>
+  
+  <!-- Magic Wand (right hand) -->
+  <line x1="68" y1="75" x2="75" y2="68" stroke="#8B5A3C" stroke-width="2" stroke-linecap="round"/>
+  <!-- Star at wand tip -->
+  <path d="M75 68 L76 65 L79 66 L77 63 L80 62 L77 60 L78 57 L75 58 L74 55 L73 58 L70 57 L71 60 L68 62 L71 63 L69 66 L72 65 Z" fill="#FCD34D" stroke="#F59E0B" stroke-width="0.5"/>
+  
+  <!-- Decorative stars around -->
+  <circle cx="25" cy="25" r="1.5" fill="#FCD34D"/>
+  <circle cx="75" cy="30" r="1" fill="#FCD34D"/>
+  <circle cx="20" cy="75" r="1" fill="#FCD34D"/>
+  <circle cx="80" cy="80" r="1.5" fill="#FCD34D"/>
+</svg>

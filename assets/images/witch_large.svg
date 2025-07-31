@@ -1,0 +1,100 @@
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="75" cy="75" r="72" fill="none" stroke="#2563EB" stroke-width="4"/>
+  
+  <!-- Inner Circle -->
+  <circle cx="75" cy="75" r="60" fill="none" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <!-- Witch Hat -->
+  <path d="M52 67 L75 22 L98 67 Z" fill="#374151" stroke="#1F2937" stroke-width="3"/>
+  <!-- Hat Brim -->
+  <ellipse cx="75" cy="67" rx="27" ry="6" fill="#374151" stroke="#1F2937" stroke-width="2"/>
+  <!-- Hat Band -->
+  <rect x="63" y="60" width="24" height="4" fill="#DC2626" rx="2"/>
+  <!-- Hat Buckle -->
+  <rect x="72" y="58" width="6" height="8" fill="#FCD34D" stroke="#F59E0B" stroke-width="1" rx="1"/>
+  <rect x="73.5" y="59.5" width="3" height="5" fill="none" stroke="#F59E0B" stroke-width="1" rx="0.5"/>
+  
+  <!-- Face -->
+  <circle cx="75" cy="82" r="18" fill="#F3E8D0" stroke="#E5D4B1" stroke-width="2"/>
+  
+  <!-- Eyes -->
+  <circle cx="69" cy="78" r="2.5" fill="#374151"/>
+  <circle cx="81" cy="78" r="2.5" fill="#374151"/>
+  <!-- Eye sparkles -->
+  <circle cx="70" cy="77" r="0.8" fill="#FFFFFF"/>
+  <circle cx="82" cy="77" r="0.8" fill="#FFFFFF"/>
+  
+  <!-- Nose -->
+  <path d="M75 80 L72 87 L78 87 Z" fill="#E5D4B1" stroke="#D1C7B0" stroke-width="1"/>
+  <!-- Nostril -->
+  <ellipse cx="74" cy="85" rx="0.5" ry="1" fill="#D1C7B0"/>
+  <ellipse cx="76" cy="85" rx="0.5" ry="1" fill="#D1C7B0"/>
+  
+  <!-- Mouth -->
+  <path d="M70 90 Q75 94 80 90" fill="none" stroke="#374151" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Hair (visible under hat) -->
+  <path d="M60 75 Q50 82 55 90" fill="#8B5A3C" stroke="#6B4226" stroke-width="2"/>
+  <path d="M90 75 Q100 82 95 90" fill="#8B5A3C" stroke="#6B4226" stroke-width="2"/>
+  <path d="M57 78 Q52 85 56 92" fill="#8B5A3C" stroke="#6B4226" stroke-width="1.5"/>
+  <path d="M93 78 Q98 85 94 92" fill="#8B5A3C" stroke="#6B4226" stroke-width="1.5"/>
+  
+  <!-- Body/Cloak -->
+  <path d="M52 100 Q75 97 98 100 L93 128 Q75 132 57 128 Z" fill="#2563EB" stroke="#1D4ED8" stroke-width="3"/>
+  <!-- Cloak details -->
+  <path d="M60 105 Q75 103 90 105" fill="none" stroke="#1E40AF" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="75" cy="115" r="3" fill="#1E40AF"/>
+  
+  <!-- Arms -->
+  <ellipse cx="52" cy="108" rx="6" ry="12" fill="#2563EB" stroke="#1D4ED8" stroke-width="2"/>
+  <ellipse cx="98" cy="108" rx="6" ry="12" fill="#2563EB" stroke="#1D4ED8" stroke-width="2"/>
+  
+  <!-- Hands -->
+  <circle cx="48" cy="112" r="5" fill="#F3E8D0" stroke="#E5D4B1" stroke-width="2"/>
+  <circle cx="102" cy="112" r="5" fill="#F3E8D0" stroke="#E5D4B1" stroke-width="2"/>
+  <!-- Hand details -->
+  <path d="M46 110 L46 114" stroke="#E5D4B1" stroke-width="1" stroke-linecap="round"/>
+  <path d="M50 110 L50 114" stroke="#E5D4B1" stroke-width="1" stroke-linecap="round"/>
+  <path d="M100 110 L100 114" stroke="#E5D4B1" stroke-width="1" stroke-linecap="round"/>
+  <path d="M104 110 L104 114" stroke="#E5D4B1" stroke-width="1" stroke-linecap="round"/>
+  
+  <!-- Magic Wand (right hand) -->
+  <line x1="102" y1="112" x2="113" y2="101" stroke="#8B5A3C" stroke-width="3" stroke-linecap="round"/>
+  <!-- Wand details -->
+  <circle cx="107" cy="107" r="1" fill="#6B4226"/>
+  <!-- Star at wand tip -->
+  <path d="M113 101 L115 96 L120 98 L117 93 L122 91 L117 89 L119 84 L113 86 L111 81 L109 86 L103 84 L105 89 L100 91 L105 93 L102 98 L107 96 Z" fill="#FCD34D" stroke="#F59E0B" stroke-width="1"/>
+  <!-- Inner star -->
+  <path d="M113 101 L114 98 L116 99 L115 96 L117 95 L115 94 L115.5 92 L113 93 L112 91 L111 93 L109 92 L109.5 94 L107 95 L109 96 L108 99 L110 98 Z" fill="#FFFFFF"/>
+  
+  <!-- Magic sparkles around -->
+  <circle cx="35" cy="35" r="2" fill="#FCD34D"/>
+  <path d="M35 35 L36 33 L37 35 L36 37 Z" fill="#FFFFFF"/>
+  
+  <circle cx="115" cy="45" r="1.5" fill="#FCD34D"/>
+  <path d="M115 45 L116 44 L117 45 L116 46 Z" fill="#FFFFFF"/>
+  
+  <circle cx="30" cy="115" r="1.5" fill="#FCD34D"/>
+  <path d="M30 115 L31 114 L32 115 L31 116 Z" fill="#FFFFFF"/>
+  
+  <circle cx="120" cy="120" r="2" fill="#FCD34D"/>
+  <path d="M120 120 L121 118 L122 120 L121 122 Z" fill="#FFFFFF"/>
+  
+  <!-- Additional decorative elements -->
+  <circle cx="25" cy="75" r="1" fill="#DC2626"/>
+  <circle cx="125" cy="75" r="1" fill="#DC2626"/>
+  
+  <!-- Moon phases around the border -->
+  <circle cx="75" cy="15" r="3" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="1"/>
+  <path d="M75 15 A3 3 0 0 1 75 21 A2 2 0 0 0 75 15" fill="#374151"/>
+  
+  <circle cx="135" cy="75" r="3" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="1"/>
+  <path d="M135 75 A3 3 0 0 1 135 81 A2 2 0 0 0 135 75" fill="#374151"/>
+  
+  <circle cx="75" cy="135" r="3" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="1"/>
+  <path d="M75 135 A3 3 0 0 1 75 141 A2 2 0 0 0 75 135" fill="#374151"/>
+  
+  <circle cx="15" cy="75" r="3" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="1"/>
+  <path d="M15 75 A3 3 0 0 1 15 81 A2 2 0 0 0 15 75" fill="#374151"/>
+</svg>
