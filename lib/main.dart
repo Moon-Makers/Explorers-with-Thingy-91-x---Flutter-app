@@ -59,7 +59,6 @@ class MyApp extends StatelessWidget {
             title: 'Thingy:91 X Sensor Hub',
             debugShowCheckedModeBanner: false,
             theme: AppTheme.lightTheme,
-            darkTheme: AppTheme.darkTheme,
             themeMode: ThemeMode.system,
             locale: languageProvider.currentLocale,
             localizationsDelegates: const [

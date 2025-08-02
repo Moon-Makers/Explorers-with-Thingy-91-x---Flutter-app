@@ -49,6 +49,7 @@ dependencies:
   model_viewer_plus: ^1.9.3
   google_maps_flutter: ^2.6.1  # For real maps
   geolocator: ^10.1.0          # For location services
+  video_player: ^2.10.0
   
 
 dev_dependencies:
@@ -81,6 +82,11 @@ flutter:
     - assets/animations/
     - assets/images/
     - assets/anim/
+    - assets/explorersThingy/
+    - assets/explorersThingy/anim/
+    - assets/explorersThingy/AppIcon/
+    - assets/explorersThingy/SVG/
+    # assets/explorers-thingy91x/intruciones.png
 
   # Enable generation of localization files
   generate: true
