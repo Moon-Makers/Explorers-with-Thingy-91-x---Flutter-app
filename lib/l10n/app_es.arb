@@ -154,5 +154,6 @@
   "headingTo": "Dirigiéndose hacia",
   "calibrateCompass": "Calibrar Brújula",
   "compassCalibration": "Calibración de Brújula",
-  "compassCalibrationDescription": "Rota tu dispositivo para calibrar la brújula"
+  "compassCalibrationDescription": "Rota tu dispositivo para calibrar la brújula",
+  "gettingStarted": "COMENZAR"
 }

@@ -3,6 +3,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_thingy_91x/screens/connection/connection_selection_screen.dart';
 import 'package:flutter_thingy_91x/providers/language_provider.dart';
 import 'package:flutter_thingy_91x/l10n/app_localizations.dart';
+import 'package:flutter_thingy_91x/screens/getting_started.dart';
 import 'package:flutter_thingy_91x/utils/platform_optimization.dart';
 import 'package:lottie/lottie.dart';
 import 'package:video_player/video_player.dart';
@@ -38,7 +39,7 @@ class SplashScreenState extends State<SplashScreen>
     Timer(const Duration(milliseconds: 4700), () {
       if (mounted) {
         Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (_) => const ConnectionSelectionScreen()),
+          MaterialPageRoute(builder: (_) => const GettingStarted()),
         );
       }
     });

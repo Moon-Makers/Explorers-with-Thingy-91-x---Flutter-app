@@ -430,4 +430,7 @@ class AppLocalizationsEs extends AppLocalizations {
   @override
   String get compassCalibrationDescription =>
       'Rota tu dispositivo para calibrar la brújula';
+
+  @override
+  String get gettingStarted => 'COMENZAR';
 }

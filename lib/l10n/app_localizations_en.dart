@@ -425,4 +425,7 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get compassCalibrationDescription =>
       'Rotate your device to calibrate the compass';
+
+  @override
+  String get gettingStarted => 'GETTING STARTED';
 }

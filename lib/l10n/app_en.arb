@@ -168,5 +168,6 @@
   "headingTo": "Heading to",
   "calibrateCompass": "Calibrate Compass",
   "compassCalibration": "Compass Calibration",
-  "compassCalibrationDescription": "Rotate your device to calibrate the compass"
+  "compassCalibrationDescription": "Rotate your device to calibrate the compass",
+  "gettingStarted": "GETTING STARTED"
 }

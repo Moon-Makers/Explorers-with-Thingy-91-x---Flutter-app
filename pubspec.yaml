@@ -72,6 +72,8 @@ flutter:
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
+  # Enable code generation for Flutter resources (assets, l10n, etc.)
+  generate: true
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
@@ -88,8 +90,6 @@ flutter:
     - assets/explorersThingy/SVG/
     # assets/explorers-thingy91x/intruciones.png
 
-  # Enable generation of localization files
-  generate: true
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
