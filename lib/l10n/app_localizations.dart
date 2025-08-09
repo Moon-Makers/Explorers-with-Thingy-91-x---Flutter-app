@@ -98,6 +98,12 @@ abstract class AppLocalizations {
     Locale('es'),
   ];
 
+  /// No description provided for @getItFrom.
+  ///
+  /// In en, this message translates to:
+  /// **'Get it from'**
+  String get getItFrom;
+
   /// No description provided for @appTitle.
   ///
   /// In en, this message translates to:

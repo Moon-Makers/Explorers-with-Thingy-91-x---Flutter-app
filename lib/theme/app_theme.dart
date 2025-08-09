@@ -8,7 +8,8 @@ class AppTheme {
 
   // Tema claro
   static final ThemeData lightTheme = ThemeData(
-    useMaterial3: true,
+  useMaterial3: true,
+  fontFamily: 'Roboto',
     colorScheme: const ColorScheme.light(
       primary: primaryColor,
       secondary: secondaryColor,

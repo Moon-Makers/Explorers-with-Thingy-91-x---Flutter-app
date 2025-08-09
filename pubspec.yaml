@@ -81,9 +81,9 @@ flutter:
     - assets/
     - assets/3d/
     - assets/3d/example/
-    - assets/animations/
+    # - assets/animations/
     - assets/images/
-    - assets/anim/
+    # - assets/anim/
     - assets/explorersThingy/
     - assets/explorersThingy/anim/
     - assets/explorersThingy/AppIcon/
