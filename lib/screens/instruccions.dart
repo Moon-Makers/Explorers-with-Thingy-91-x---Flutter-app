@@ -1,14 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_thingy_91x/screens/connection/connection_selection_screen.dart';
-import 'package:flutter_thingy_91x/providers/language_provider.dart';
 import 'package:flutter_thingy_91x/l10n/app_localizations.dart';
-import 'package:flutter_thingy_91x/utils/platform_optimization.dart';
-import 'package:flutter_thingy_91x/widgets/language_dialog.dart';
-import 'package:lottie/lottie.dart';
 import 'package:video_player/video_player.dart';
-import 'package:provider/provider.dart';
-import 'dart:async';
 
 class Instruccions extends StatefulWidget {
   const Instruccions({super.key});

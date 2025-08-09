@@ -1,15 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:flutter_thingy_91x/screens/connection/connection_selection_screen.dart';
-import 'package:flutter_thingy_91x/providers/language_provider.dart';
 import 'package:flutter_thingy_91x/l10n/app_localizations.dart';
 import 'package:flutter_thingy_91x/screens/instruccions.dart';
-import 'package:flutter_thingy_91x/utils/platform_optimization.dart';
 import 'package:flutter_thingy_91x/widgets/language_dialog.dart';
-import 'package:lottie/lottie.dart';
 import 'package:video_player/video_player.dart';
-import 'package:provider/provider.dart';
-import 'dart:async';
 
 class GettingStarted extends StatefulWidget {
   const GettingStarted({super.key});
@@ -123,53 +116,12 @@ class GettingStartedState extends State<GettingStarted>
                 ],
               ),
             ),
-            
+
             Positioned(
               top: MediaQuery.of(context).padding.top + 16,
               right: 16,
-              child: Consumer<LanguageProvider>(
-                builder: (context, languageProvider, child) {
-                  return Container(
-                    decoration: BoxDecoration(
-                      color: Colors.blue,
-                      borderRadius: BorderRadius.circular(20),
-                    ),
-                    child: Material(
-                      color: Colors.transparent,
-                      child: InkWell(
-                        borderRadius: BorderRadius.circular(20),
-                        onTap: () => LanguageDialog.show(context),
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 12,
-                            vertical: 8,
-                          ),
-                          child: Row(
-                            mainAxisSize: MainAxisSize.min,
-                            children: [
-                              Icon(
-                                Icons.language,
-                                color: Colors.white,
-                                size: 20,
-                              ),
-                              const SizedBox(width: 6),
-                              Text(
-                                languageProvider.isEnglish ? 'EN' : 'ES',
-                                style: const TextStyle(
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 14,
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                      ),
-                    ),
-                  );
-                },
-              ),
-            ),
+              child: LanguageDialog(),
+            )
             
           ],
         ),
