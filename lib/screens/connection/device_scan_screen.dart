@@ -164,6 +164,7 @@ class DeviceScanScreenState extends State<DeviceScanScreen> {
                     ],
                   ),
                 ),
+              
               ],
             ),
           ),

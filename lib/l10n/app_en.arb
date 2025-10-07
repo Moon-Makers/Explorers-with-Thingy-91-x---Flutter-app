@@ -1,4 +1,5 @@
 {
+  "getItFrom": "Get it from",
   "@@locale": "en",
   "appTitle": "Thingy:91 X",
   
@@ -168,5 +169,6 @@
   "headingTo": "Heading to",
   "calibrateCompass": "Calibrate Compass",
   "compassCalibration": "Compass Calibration",
-  "compassCalibrationDescription": "Rotate your device to calibrate the compass"
+  "compassCalibrationDescription": "Rotate your device to calibrate the compass",
+  "gettingStarted": "GETTING STARTED"
 }

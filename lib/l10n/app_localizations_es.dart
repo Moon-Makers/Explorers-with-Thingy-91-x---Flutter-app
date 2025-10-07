@@ -9,6 +9,9 @@ class AppLocalizationsEs extends AppLocalizations {
   AppLocalizationsEs([String locale = 'es']) : super(locale);
 
   @override
+  String get getItFrom => 'Consíguelo en';
+
+  @override
   String get appTitle => 'Thingy:91 X';
 
   @override
@@ -430,4 +433,7 @@ class AppLocalizationsEs extends AppLocalizations {
   @override
   String get compassCalibrationDescription =>
       'Rota tu dispositivo para calibrar la brújula';
+
+  @override
+  String get gettingStarted => 'COMENZAR';
 }

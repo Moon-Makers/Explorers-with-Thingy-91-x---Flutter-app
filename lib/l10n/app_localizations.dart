@@ -98,6 +98,12 @@ abstract class AppLocalizations {
     Locale('es'),
   ];
 
+  /// No description provided for @getItFrom.
+  ///
+  /// In en, this message translates to:
+  /// **'Get it from'**
+  String get getItFrom;
+
   /// No description provided for @appTitle.
   ///
   /// In en, this message translates to:
@@ -907,6 +913,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Rotate your device to calibrate the compass'**
   String get compassCalibrationDescription;
+
+  /// No description provided for @gettingStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'GETTING STARTED'**
+  String get gettingStarted;
 }
 
 class _AppLocalizationsDelegate

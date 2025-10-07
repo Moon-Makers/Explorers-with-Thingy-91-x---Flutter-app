@@ -9,6 +9,9 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
+  String get getItFrom => 'Get it from';
+
+  @override
   String get appTitle => 'Thingy:91 X';
 
   @override
@@ -425,4 +428,7 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get compassCalibrationDescription =>
       'Rotate your device to calibrate the compass';
+
+  @override
+  String get gettingStarted => 'GETTING STARTED';
 }

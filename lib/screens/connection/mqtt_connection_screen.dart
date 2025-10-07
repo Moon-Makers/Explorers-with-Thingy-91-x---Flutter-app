@@ -242,21 +242,21 @@ class MQTTConnectionScreenState extends State<MQTTConnectionScreen> with SingleT
               ),
               child: Row(
                 children: [
-                  Container(
-                    padding: const EdgeInsets.all(16),
-                    decoration: BoxDecoration(
-                      color: Colors.white.withValues(alpha: 0.2),
-                      borderRadius: BorderRadius.circular(16),
-                    ),
-                    child: SizedBox(
-                      width: 40,
-                      height: 40,
-                      child: Lottie.asset(
-                        'assets/animations/cloud.json',
-                        repeat: true,
-                      ),
-                    ),
-                  ),
+                  // Container(
+                  //   padding: const EdgeInsets.all(16),
+                  //   decoration: BoxDecoration(
+                  //     color: Colors.white.withValues(alpha: 0.2),
+                  //     borderRadius: BorderRadius.circular(16),
+                  //   ),
+                  //   child: SizedBox(
+                  //     width: 40,
+                  //     height: 40,
+                  //     child: Lottie.asset(
+                  //       'assets/animations/cloud.json',
+                  //       repeat: true,
+                  //     ),
+                  //   ),
+                  // ),
                   const SizedBox(width: 16),
                   Expanded(
                     child: Column(
