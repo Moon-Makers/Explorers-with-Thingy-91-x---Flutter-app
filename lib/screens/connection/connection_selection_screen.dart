@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_thingy_91x/screens/connection/examples_menu_screen.dart';
 import 'package:flutter_thingy_91x/screens/compass/compass_connection_screen.dart';
-import 'package:flutter_thingy_91x/l10n/app_localizations.dart';
 import 'package:flutter_thingy_91x/widgets/language_dialog.dart';
 import 'package:flutter_thingy_91x/widgets/connection_card.dart';
 
@@ -35,10 +34,13 @@ class _ConnectionSelectionScreenState extends State<ConnectionSelectionScreen> {
               child: LanguageDialog(),
             ),
 
-            // Main content
-            SafeArea(
-              child: Column(
-                children: [
+            // Main content (centered horizontally)
+            Align(
+              alignment: Alignment.topCenter,
+              child: SafeArea(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
                   const SizedBox(height: 48),
                     Text(
                     "Choose Your Mode",
@@ -117,6 +119,7 @@ class _ConnectionSelectionScreenState extends State<ConnectionSelectionScreen> {
                     ),
                   ),
                 ],
+                ),
               ),
             ),
           ],
