@@ -21,7 +21,7 @@
     <application
         android:label="flutter_thingy_91x"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
             android:exported="true"
